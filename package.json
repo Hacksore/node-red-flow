@@ -2,7 +2,7 @@
   "name": "red-update-flow",
   "version": "1.0.0",
   "description": "Make a request to the Node Red Flows catalogue to reindex the latest version",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ncc build index.js --license licenses.txt"
