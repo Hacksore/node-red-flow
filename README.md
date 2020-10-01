@@ -9,6 +9,8 @@ Make a request to the Node Red Flows catalogue to reindex the latest version
 
 ## Example usage
 
-uses: actions/node-red-flow-update@v1
+```yaml
+uses: hacksore/node-red-flow-update@v1
 with:
   repo: 'node-red-contrib-bluelinky'
+```

@@ -1,8 +1,8 @@
 
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Node Red Flow Updater'
+description: 'Select a node red contrib repo to update'
 inputs:
-  repo:  # id of input
+  repo:
     description: 'Repo to update'
     required: true
     default: 'node-red-contrib-discord'
