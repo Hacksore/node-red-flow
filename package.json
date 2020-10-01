@@ -1,5 +1,5 @@
 {
-  "name": "red-update-flow",
+  "name": "node-red-flow",
   "version": "1.0.0",
   "description": "Make a request to the Node Red Flows catalogue to reindex the latest version",
   "main": "index.js",
