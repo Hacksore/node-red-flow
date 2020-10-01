@@ -1,0 +1,11 @@
+
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  repo:  # id of input
+    description: 'Repo to update'
+    required: true
+    default: 'node-red-contrib-discord'
+runs:
+  using: 'node12'
+  main: 'index.js'
