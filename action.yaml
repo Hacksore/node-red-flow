@@ -1,6 +1,6 @@
 
-name: 'Node Red Flow Updater'
-description: 'Select a node red contrib repo to update'
+name: 'Node Red Flow'
+description: 'Select a node-red contrib repo to update'
 inputs:
   repo:
     description: 'Repo to update'
