@@ -1,16 +1,16 @@
-# node-red-update-flow
-Make a request to the Node Red Flows catalogue to reindex the latest version
+# node-red-flow
+Make a POST request to the Node Red Flows catalogue to reindex the latest version
 
 ## Inputs
 
 ### `repo`
 
-**Required** The name of the repo to update
+**Required** The name of the node-red repo to update
 
 ## Example usage
 
 ```yaml
-uses: hacksore/node-red-flow@v1
+uses: hacksore/node-red-flow@v2
 with:
   repo: 'node-red-contrib-bluelinky'
 ```
