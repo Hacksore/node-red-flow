@@ -8,6 +8,6 @@ inputs:
     default: 'node-red-contrib-discord'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://hacksore/node-red-flow:latest'
   args:
     - ${{ inputs.repo }}
