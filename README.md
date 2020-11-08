@@ -10,7 +10,7 @@ Make a POST request to the Node Red Flows catalogue to reindex the latest versio
 ## Example usage
 
 ```yaml
-uses: hacksore/node-red-flow@v1
+uses: hacksore/node-red-flow@v2
 with:
   repo: 'node-red-contrib-bluelinky'
 ```
