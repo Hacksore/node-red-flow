@@ -2,9 +2,11 @@ name: Build
 
 on:
   push:
+    branches:
+      - master
     # Don't run this on tags
     tags-ignore:
-      - 'v*'
+      - "v*"
 
 jobs:
   build:

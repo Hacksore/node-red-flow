@@ -10,10 +10,9 @@ on:
 
 jobs:
   docker-run:
-    name: docker build & push
+    name: docker
     runs-on: ubuntu-latest
     steps:
-      - name: checkout scm
+      - name: run
         run: |
           docker run hacksore/node-red-flow '${{ github.event.inputs.project }}'
-      
