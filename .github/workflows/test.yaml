@@ -1,0 +1,19 @@
+name: Manual
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "Node red library to update"
+        required: true
+        default: "node-red-contrib-bluelinky"
+
+jobs:
+  docker-run:
+    name: docker build & push
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout scm
+        run: |
+          docker run hacksore/node-red-flow '${{ github.event.inputs.project }}'
+      

@@ -19,6 +19,7 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
-    "got": "^11.7.0"
+    "got": "^11.7.0",
+    "tough-cookie": "^4.0.0"
   }
 }
