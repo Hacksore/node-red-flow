@@ -44,9 +44,11 @@ if (process.env.CI) {
     cookieJar,
     throwHttpErrors: false,
   });
-
-  if (postResponse.statusCode === "200") {
+  
+  if (postResponse.statusCode === 200) {
     console.log(`${repo} refresh was submitted successfully`);
+  } else if (postResponse.statusCode === 400) {
+    console.log(`${repo} is already at the latest version`);
   } else {
     core.setFailed(postResponse.body);
   }
